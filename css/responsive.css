@@ -61,8 +61,11 @@
         font-size: 40px;
         color:orangered
     }
-    .nav-li a {
-        color: rgb(190, 28, 104);
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
     }
     .text {
         font-size: 30px;
@@ -121,4 +124,16 @@
     .wrapper-box {
         flex-direction: column-reverse;
     }
+}
+@media (max-width:320px) {
+    .burger-icon {
+        color: darkred;
+    }
+    .nav-li :not ( .active ) {
+        display: none;
+    }
+    /* .active {
+        display: block;
+        color: chartreuse;
+    } */
 }

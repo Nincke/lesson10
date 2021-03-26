@@ -161,4 +161,8 @@ h4 {
 .burger-icon {
 	color: darkorange;
 	font-size: 30px;
+	margin-right: 30px;
+}
+.burger {
+	display: none;
 }
